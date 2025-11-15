@@ -8,4 +8,5 @@ class school:
     def show_student(self):
         for student in self.student:
             print(student)
+
 student = school(["Sam", "Rob"])
